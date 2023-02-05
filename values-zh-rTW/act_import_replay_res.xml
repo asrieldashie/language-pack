@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- after 1.6.7(beta1) -->
+    <string name="act_import_replay">將重播檔匯入 osu!droid</string>
+    <string name="invalid_edr_file">無效的重播檔！</string>
+    <string name="failed_to_import_edr">匯入失敗！</string>
+    <string name="failed_to_import_edr_with_err" formatted="true">無法匯入 %s</string>
+    <string name="import_edr_successfully">匯入成功！</string>
+
+</resources>

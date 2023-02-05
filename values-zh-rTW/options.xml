@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bg_quality_names">
+        <item>高</item>
+        <item>中</item>
+        <item>低</item>
+        <item>停用</item>
+    </string-array>
+    <string-array name="bg_quality_values">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="bg_brightness_names">
+        <item>100%</item>
+        <item>75%</item>
+        <item>50%</item>
+        <item>25%</item>
+        <item>0%</item>
+    </string-array>
+    <string-array name="bg_brightness_values">
+        <item>100</item>
+        <item>75</item>
+        <item>50</item>
+        <item>25</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="error_meter_display_names">
+        <item>總是顯示</item>
+        <item>僅重播時顯示</item>
+        <item>停用</item>
+    </string-array>
+    <string-array name="error_meter_display_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="spinner_style_names">
+        <item>現代</item>
+        <item>經典</item>
+    </string-array>
+    <string-array name="spinner_style_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="metronome_switch_names">
+        <item>關閉</item>
+        <item>僅在 Nightcore Mod 下開啟</item>
+        <item>一律開啟</item>
+    </string-array>
+    <string-array name="metronome_switch_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string name="opt_onlineOpt">帳號設定</string>
+
+    <string name="opt_onlineOpt_normal">線上功能</string>
+
+    <string name="opt_onlineOpt_user">玩家設定</string>
+
+    <string name="opt_offline">離線遊玩設定</string>
+
+    <string name="opt_graphics">顯示設定</string>
+
+    <string name="opt_beatmaps">圖譜設定</string>
+
+    <string name="opt_bg_title">背景顯示品質</string>
+
+    <string name="opt_bg_summary">降低背景品質以取得更好的效能</string>
+
+    <string name="opt_skin_title">圖譜 Skin</string>
+    <string name="opt_skin_summary">可用時使用圖譜內建的 Skin</string>
+
+    <string name="opt_sound_title">圖譜音效</string>
+    <string name="opt_sound_summary">可用時使用圖譜內建的音效</string>
+
+    <string name="opt_largeimages_title">倒數計時</string>
+    <string name="opt_largeimages_summary">對有這項功能的圖譜啟用倒數計時</string>
+
+    <string name="opt_sound_volume_title">打擊音效</string>
+    <string name="opt_sound_volume_summary">打擊效果的音量（0-100），需要重新啟動來套用</string>
+
+    <string name="opt_bgm_volume_title">音樂</string>
+    <string name="opt_bgm_volume_summary">背景音樂的音量（0-100）</string>
+
+    <string name="opt_offset_title">音樂延遲</string>
+    <string name="opt_offset_summary">以毫秒（ms）為單位來調整音樂的延遲程度（數值越大越提前開始，反之亦然）</string>
+
+    <string name="opt_special">特殊設定</string>
+    <string name="opt_taiko_title">載入 T-Aiko! 的圖譜</string>
+    <string name="opt_taiko_summary">從 T-Aiko! 的曲庫資料夾載入圖譜</string>
+
+    <string name="opt_deleteosz_title">自動刪除圖譜</string>
+    <string name="opt_deleteosz_summary">匯入圖譜（.osz檔案）後自動刪除</string>
+
+    <string name="opt_directory_title">圖譜位置</string>
+    <string name="opt_directory_summary">設定存放圖譜的路徑位置（預設為 /mnt/sdcard/osu!droid/Songs）</string>
+
+    <string name="opt_clear_title">圖譜快取</string>
+    <string name="opt_clear_summary">強制清除圖譜快取</string>
+
+    <string name="opt_doublesound_title">雙重音效</string>
+    <string name="opt_doublesound_summary">使打擊音效更接近原版 osu!</string>
+
+    <string name="opt_sound">音效設定</string>
+
+    <string name="opt_fps_title">幀數顯示</string>
+    <string name="opt_fps_summary">在遊玩時顯示當前的顯示幀數</string>
+
+    <string name="opt_skipoffset_title">Skip鍵延遲調整</string>
+    <string name="opt_skipoffset_summary">此延遲數值會在您按下 &quot;Skip&quot; 鍵時套用。輸入 -1 以使其自動調整</string>
+
+    <string name="opt_lowtextures_title">顯示品質</string>
+    <string name="opt_lowtextures_summary">調降遊戲整體顯示品質。停用時，osu!droid 將會使用更高畫質來顯示遊戲內各項物件。</string>
+
+    <string name="opt_nativeplayer_title">使用內建播放器</string>
+    <string name="opt_nativeplayer_summary">使用內建播放器來改善圖譜與音樂間的準確度（不支援 .ogg 類型的檔案）</string>
+
+    <string name="opt_metronome_switch_title">節拍器</string>
+    <string name="opt_metronome_switch_summary">在遊戲中啟用節拍器音效</string>
+
+    <string name="opt_vbroffset_title">VBR 延遲調整</string>
+    <string name="opt_vbroffset_summary">針對採用變動位元速率（Variable bitrate, VBR）的 .mp3 檔案來改善音效延遲（僅可用於內建播放器）</string>
+
+    <string name="opt_sliderborders_title">滑條邊界</string>
+    <string name="opt_sliderborders_summary">在滑條的兩側顯示邊界，停用可提升效能</string>
+
+    <string name="opt_complexanimations_title">顯示特效</string>
+    <string name="opt_complexanimations_summary">啟用更多顯示效果（滑條淡出等），停用可提升效能</string>
+
+
+    <string name="opt_other_title">雜項</string>
+    <string name="opt_multitouch_title">多點觸控</string>
+    <string name="opt_multitouch_summary">可用時啟用多點觸控</string>
+
+    <string name="opt_offsetscreen_title">設定延遲</string>
+    <string name="opt_offsetscreen_summary"/>
+
+    <string name="opt_oggoffset_title">OGG 延遲調整</string>
+    <string name="opt_oggoffset_summary">針對 .ogg 檔案來改善音效延遲</string>
+
+    <string name="opt_pauseoffset_title">暫停延遲</string>
+    <string name="opt_pauseoffset_summary">每次暫停遊戲所增加的延遲</string>
+
+    <string name="opt_musicpreview_title">曲目試聽</string>
+    <string name="opt_musicpreview_summary">在選擇圖譜時播放該曲目</string>
+
+    <string name="opt_playername_title">玩家名稱</string>
+    <string name="opt_playername_summary">本機玩家名稱</string>
+
+    <string name="opt_showcursor_title">游標</string>
+    <string name="opt_showcursor_summary">遊玩時顯示游標</string>
+
+
+    <string name="opt_demoSpline_title">實驗性滑條</string>
+    <string name="opt_demoSpline_summary">針對滑條採用不同的演算法。（實驗性功能，可能會造成一些問題）</string>
+
+    <string name="opt_clearprops_title">圖譜個別資訊</string>
+    <string name="opt_clearprops_summary">強制清除圖譜個別資訊（如偏移等）</string>
+
+    <string name="opt_online">線上設定</string>
+    <string name="opt_online_title">顯示線上設定</string>
+    <string name="opt_online_summary"></string>
+
+    <string name="opt_stayonline_title">連接伺服器</string>
+    <string name="opt_stayonline_summary">登入至 osu!droid 的伺服器</string>
+
+    <string name="opt_login_title">登入</string>
+    <string name="opt_login_summary">線上名稱</string>
+
+    <string name="opt_password_title">密碼</string>
+    <string name="opt_password_summary">輸入您的密碼</string>
+
+    <string name="opt_register_title">註冊</string>
+    <string name="opt_register_summary">註冊新的帳號（一台裝置只能註冊一個帳號）</string>
+
+    <string name="opt_loadavatar_title">顯示大頭貼</string>
+    <string name="opt_loadavatar_summary">使用行動數據時一律顯示</string>
+
+
+    <string name="opt_error_meter_display_title">Hit error meter</string>
+    <string name="opt_error_meter_display_summary">Display hit error meter</string>
+
+    <string name="opt_spinner_style_title">Spinner style</string>
+    <string name="opt_spinner_style_summary">Change the spinner style</string>
+
+    <string name="opt_combo_burst_title">Combo Burst</string>
+    <string name="opt_combo_burst_summary">Toggle combo burst on/off</string>
+
+    <string name="opt_advanced">Advanced</string>
+
+    <string name="opt_advanced_title">Advanced options</string>
+    <string name="opt_advanced_summary"></string>
+
+    <string name="opt_corepath_title">Main directory</string>
+    <string name="opt_corepath_summary">osu!droid main directory</string>
+
+    <string name="opt_lowdelay_title">Input delay</string>
+    <string name="opt_lowdelay_summary">Reduces input delay. Disable it if you feel uncomfortable.</string>
+
+    <string name="opt_fix_frame_offset_title">Fix a random offset.</string>
+    <string name="opt_fix_frame_offset_summary">Try to fix the offset between input time and frame time.</string>
+
+    <string name="opt_enable_extension_title">Enable extension</string>
+
+    <string name="opt_download_extension_title">Download extension</string>
+
+    <string name="opt_syncmusic_title">Low-latency synchronisation</string>
+
+    <string name="opt_syncmusic_summary">"Disable if your device doesn't support low-latency audio"</string>
+
+    <string name="opt_savereplays_title">Replays</string>
+
+    <string name="opt_savereplays_summary">Save replays for local records</string>
+
+    <string name="opt_bursts_title">Burst effects</string>
+    <string name="opt_bursts_summary">Show burst effects when hitting circles or sliders</string>
+
+    <string name="opt_hitlighting_title">Hit Lighting</string>
+    <string name="opt_hitlighting_summary">Adds a subtle glow behind hit explosions which lights the playfield</string>
+
+    <string name="opt_dither_title">Dither</string>
+    <string name="opt_dither_summary">User hardware dither (picture processing)</string>
+
+    <string name="opt_particles_title">Particle effects</string>
+    <string name="opt_particles_summary">Show particle-based effects like cursor trail</string>
+
+    <string name="opt_bgbrightness_title">Background brightness</string>
+    <string name="opt_bgbrightness_summary">Change the brightness of the background image</string>
+
+    <string name="opt_hide_navibar_title">Navigation Bar</string>
+    <string name="opt_hide_navibar_summary">Hide the navigation bar while playing</string>
+
+    <string name="opt_enable_pp_title">PerformancePoint System(PP)</string>
+    <string name="opt_enable_pp_summary">A simple offline pp system. Just for fun :)</string>
+    <string name="opt_clear_pp_title">Reset Performance Points(PP)</string>
+    <string name="opt_clear_pp_summary"></string>
+
+    <string name="opt_combo_colors_title">Combo Colors</string>
+    <string name="opt_combo_colors_summary">Use custom combo\'s color</string>
+
+
+
+    <!-- new data after 1.6.7(beta1) -->
+    <string name="opt_update_title">Check for updates</string>
+    <string name="opt_update_summary">Check for available updates</string>
+
+    <string name="force_romanized">Force romanized metadata</string>
+    <string name="force_romanized_summary">Force using only roman character for metadata, in case titles in japanese or chinese are unreadable</string>
+
+    <string name="opt_cursor_size">Cursor Size</string>
+    <string name="opt_cursor_size_summary">Adjust cursor size (25 - 300, default 100)</string>
+
+    <string name="opt_show_first_approach_circle_title">Force show first approach circle</string>
+    <string name="opt_show_first_approach_circle_summary">Do not hide the first approach circle in hidden mods</string>
+
+    <string name="opt_apikey_title">[Beta] osu!ppy API Key</string>
+    <string name="opt_apikey_summary">Uses osu!ppy API to get beatmaps\' information. &#xD;If key is invalid, uses bloodcat instead (might be outdated/bad connection)</string>
+
+    <string name="opt_show_scoreboard_summary">Show scoreboard of selected beatmap during game</string>
+    <string name="opt_show_scoreboard_title">Show scoreboard</string>
+
+    <string name="opt_skinpath_title">Select skin</string>
+    <string name="opt_skinpath_summary">Select skin from top skin directory</string>
+
+    <string name="opt_skin_top_path_title">Skin directory</string>
+    <string name="opt_skin_top_path_summary">Path to directory containing skin files. (default: /sdcard/osu!droid/Skin)</string>
+
+    <string name="opt_enableStoryboard_summary">Your phone will be very hot!</string>
+    <string name="opt_enableStoryboard_title">Enable Storyboard</string>
+
+    <string name="opt_scandownload_summary">Scan /Download directory for new beatmaps</string>
+    <string name="opt_scandownload_title">Scan Download</string>
+
+    <string name="opt_superSlider_title">Super Slider</string>
+    <string name="opt_superSlider_summary">Perfect shape slider!</string>
+
+</resources>
